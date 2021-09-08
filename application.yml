@@ -3,9 +3,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8700/eureka/
+      defaultZone: http://cloud-config-server:8700/eureka/
   instance:
-    hostname: localhost
+    hostname: cloud-config-server
     
 microservice:
   pssService:
